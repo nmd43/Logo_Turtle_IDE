@@ -1,0 +1,18 @@
+<Command>
+  <CanonicalName>BACK</CanonicalName>
+  <Description>Moves the turtle backward by the specified distance.</Description>
+  <Example>back 50</Example>
+  <HelpDocumentation>Moves the turtle backward from its current position by the given number of pixels without changing its heading.</HelpDocumentation>
+  <Parameter name="distance" type="double">The distance to move backward.</Parameter>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.BackCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>BK</Alias>
+    <Alias>back</Alias>
+    <Alias>backwards</Alias>
+    <Alias>backward</Alias>
+    <Alias>bk</Alias>
+  </Aliases>
+</Command>

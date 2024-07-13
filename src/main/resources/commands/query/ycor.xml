@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>ycor</CanonicalName>
+    <Description>Returns the turtle's Y coordinate from the center of the screen</Description>
+    <Example>ycor</Example>
+    <HelpDocumentation>
+        Returns the turtle's Y coordinate relative to the center of the screen which is (0,0).
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter />
+    </Parameters>
+    <ReturnValue type="double" description="This command returns a decimal value corresponding to the Y-coordinate of the turtle"/>
+    <Category>Query</Category>
+    <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.query.YCorCommand</ImplementingClassName>
+    <Aliases>
+        <Alias/>
+        <Alias/>
+    </Aliases>
+</Command>

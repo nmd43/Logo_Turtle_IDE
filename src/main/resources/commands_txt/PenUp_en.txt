@@ -1,0 +1,9 @@
+- Canonical Name: penup
+- Aliases: pu
+- Parameters: None
+- Example: penup
+- Functionality: Lift the pen, so the turtle stops drawing.
+
+Additional Notes:
+- This command is commonly used to stop drawing lines while the turtle moves.
+- Subsequent movement commands will not leave a trace until "pendown" is executed.

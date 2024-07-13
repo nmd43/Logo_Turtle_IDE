@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>difference</CanonicalName>
+    <Description>Returns the difference of the values of expr1 and expr2</Description>
+    <Example>difference 12 5</Example>
+    <HelpDocumentation>
+        Returns the difference of the values of expr1 and expr2
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to be subtracted from"/>
+        <Parameter name="expr2" type="double" description="Number to be subtracted"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the difference"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.DifferenceCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>-</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

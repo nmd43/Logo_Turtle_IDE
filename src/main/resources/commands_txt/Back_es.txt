@@ -1,0 +1,10 @@
+- Nombre Canónico: atrás
+- Aliases: bk
+- Parámetros: distancia (píxeles)
+- Ejemplo: atrás 10
+- Funcionalidad: Mueve la tortuga hacia atrás por la distancia especificada.
+
+Notas Adicionales:
+- El parámetro "distancia" representa la cantidad de píxeles por los cuales la tortuga se moverá hacia atrás.
+- Se pueden utilizar valores negativos para mover la tortuga hacia adelante.
+- Este comando se utiliza comúnmente para el movimiento de la tortuga en la dirección hacia atrás.

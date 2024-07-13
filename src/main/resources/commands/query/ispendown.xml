@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>pendown?</CanonicalName>
+    <Description>Returns 1 if turtle's pen is down, 0 if it is up</Description>
+    <Example>pendown?</Example>
+    <HelpDocumentation>
+        Returns 1 if turtle's pen is down, 0 if it is up
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter />
+    </Parameters>
+    <ReturnValue type="int" description="This command returns a decimal value corresponding to whether the pen is up"/>
+    <Category>Query</Category>
+    <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.query.IsPendownCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>pendownp</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

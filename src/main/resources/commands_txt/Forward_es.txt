@@ -1,0 +1,12 @@
+Documentación del Comando Avanzar
+
+- Nombre Canónico: avanzar
+- Alias: av, avz
+- Parámetros: distancia (píxeles)
+- Ejemplo: avanzar 10
+- Funcionalidad: Mueve la tortuga hacia adelante por la distancia especificada.
+
+Notas Adicionales:
+- El parámetro "distancia" representa la cantidad de píxeles que la tortuga se moverá hacia adelante.
+- Se pueden usar valores negativos para mover la tortuga hacia atrás.
+- Este comando se utiliza comúnmente para el movimiento de la tortuga en la dirección hacia adelante.

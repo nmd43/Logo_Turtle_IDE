@@ -1,0 +1,12 @@
+<Command>
+  <CanonicalName>forward</CanonicalName>
+  <Description>Move the turtle forward by a specified distance</Description>
+  <Example>forward 50</Example>
+  <HelpDocumentation>Moves the turtle forward in the direction it's currently facing</HelpDocumentation>
+  <Parameter name="distance" type="double">The distance to move forward</Parameter>
+  <ReturnValueDescription>None</ReturnValueDescription>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.ForwardCommand</ImplementingClassName>
+  <Alias>fd</Alias>
+</Command>

@@ -1,0 +1,12 @@
+Forward Command Documentation
+
+- Canonical Name: forward
+- Aliases: fd, fwd
+- Parameters: distance (pixels)
+- Example: forward 10
+- Functionality: Move the turtle forward by the specified distance.
+
+Additional Notes:
+- The "distance" parameter represents the number of pixels the turtle will move forward.
+- Negative values can be used to move the turtle backward.
+- This command is commonly used for turtle movement in the forward direction.

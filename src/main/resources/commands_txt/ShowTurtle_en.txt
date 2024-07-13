@@ -1,0 +1,9 @@
+- Canonical Name: showturtle
+- Aliases: st
+- Parameters: None
+- Example: showturtle
+- Functionality: Make the turtle visible on the screen.
+
+Additional Notes:
+- This command is used to display the turtle on the screen if it's hidden.
+- The turtle icon becomes visible, allowing it to be seen while moving.

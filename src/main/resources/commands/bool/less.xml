@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>less?</CanonicalName>
+    <Description>Returns 1 if the value of expr1 is strictly less > than the value of expr2, otherwise 0</Description>
+    <Example>less? 12 5</Example>
+    <HelpDocumentation>
+        Returns 1 if the value of expr1 is strictly less > than the value of expr2, otherwise 0
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to check if less"/>
+        <Parameter name="expr2" type="double" description="Number to check against"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether first number is less than second"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.LessCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>&lt;</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

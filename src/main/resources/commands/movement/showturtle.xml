@@ -1,0 +1,20 @@
+<Command>
+  <CanonicalName>SHOWTURTLE</CanonicalName>
+  <Description>Display the image of the turtle on the screen</Description>
+  <Example>SHOWTURTLE</Example>
+  <HelpDocumentation>
+    If the turtle is not currently being displayed, this will display the turtle
+  </HelpDocumentation>
+  <Parameters>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.ShowTurtleCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>ST</Alias>
+    <Alias>showturtle</Alias>
+    <Alias>st</Alias>
+    <Alias>Showturtle</Alias>
+  </Aliases>
+</Command>

@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>lessequal?</CanonicalName>
+    <Description>Returns 1 if the value of expr1 is less than or equal to the value of expr2, otherwise 0</Description>
+    <Example>lessequal? 4 5</Example>
+    <HelpDocumentation>
+        Returns 1 if the value of expr1 is less than or equal to the value of expr2, otherwise 0
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to check if less/equal"/>
+        <Parameter name="expr2" type="double" description="Number to check against"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether first number is less/equal than second"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.LessEqualCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>&lt;=</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

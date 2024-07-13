@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>not</CanonicalName>
+    <Description>Returns 1 if test is 0 and 0 if test is non-zero</Description>
+    <Example>not 0</Example>
+    <HelpDocumentation>
+        Returns 1 if test is 0 and 0 if test is non-zero
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="test" type="double" description="Number to check"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether number is zero"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.NotCommand</ImplementingClassName>
+    <Aliases>
+        <Alias/>
+        <Alias/>
+    </Aliases>
+</Command>

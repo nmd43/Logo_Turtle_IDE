@@ -1,0 +1,19 @@
+<Command>
+  <CanonicalName>HOME</CanonicalName>
+  <Description>Moves the turtle back to the center of the screen</Description>
+  <Example>HOME</Example>
+  <HelpDocumentation>
+    If the turtle is not currently centered both horizontally and vertically, then this command will
+    return it to the origin which is at the center of the screen
+  </HelpDocumentation>
+  <Parameters>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.HomeCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>home</Alias>
+    <Alias>Home</Alias>
+  </Aliases>
+</Command>

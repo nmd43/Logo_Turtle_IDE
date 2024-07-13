@@ -1,0 +1,20 @@
+<Command>
+  <CanonicalName>PENUP</CanonicalName>
+  <Description>Puts the pen up, preventing the turtle from drawing as it moves</Description>
+  <Example>PENUP</Example>
+  <HelpDocumentation>
+    If you do not want the turtle to leave a trail as it moves, simply type this command
+  </HelpDocumentation>
+  <Parameters>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.PenUpCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>PU</Alias>
+    <Alias>penup</Alias>
+    <Alias>pu</Alias>
+    <Alias>Penup</Alias>
+  </Aliases>
+</Command>

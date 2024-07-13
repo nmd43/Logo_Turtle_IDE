@@ -1,0 +1,9 @@
+- Canonical Name: pendown
+- Aliases: pd
+- Parameters: None
+- Example: pendown
+- Functionality: Lower the pen, so the turtle resumes drawing.
+
+Additional Notes:
+- This command is commonly used to start drawing lines after using "penup."
+- Subsequent movement commands will leave a trace until "penup" is executed.

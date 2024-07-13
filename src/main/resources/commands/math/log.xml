@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>log</CanonicalName>
+    <Description>Returns natural log of expr</Description>
+    <Example>log 10</Example>
+    <HelpDocumentation>
+        Returns natural log of expr
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to find the natural log of"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the natural log"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.LogCommand</ImplementingClassName>
+    <Aliases>
+        <Alias/>
+        <Alias/>
+    </Aliases>
+</Command>

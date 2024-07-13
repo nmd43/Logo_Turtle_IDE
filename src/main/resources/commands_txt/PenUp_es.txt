@@ -1,0 +1,9 @@
+- Nombre Canónico: penup
+- Aliases: pu
+- Parámetros: Ninguno
+- Ejemplo: penup
+- Funcionalidad: Levanta el lápiz, haciendo que la tortuga deje de dibujar.
+
+Notas Adicionales:
+- Este comando se utiliza comúnmente para dejar de dibujar líneas mientras la tortuga se mueve.
+- Los comandos de movimiento subsiguientes no dejarán una traza hasta que se ejecute "pendown".

@@ -1,0 +1,21 @@
+<Command>
+    <CanonicalName>sum</CanonicalName>
+    <Description>Returns sum of the values of expr1 and expr2</Description>
+    <Example>sum 5 12</Example>
+    <HelpDocumentation>
+        Returns sum of the values of expr1 and expr2
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="First number to be added"/>
+        <Parameter name="expr2" type="double" description="Second number to be added"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the sum"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.SumCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>+</Alias>
+        <Alias>sum</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

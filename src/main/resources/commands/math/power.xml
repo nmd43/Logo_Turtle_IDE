@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>power</CanonicalName>
+    <Description>Returns base raised to the power of the exponent</Description>
+    <Example>power 2 6</Example>
+    <HelpDocumentation>
+        Returns base raised to the power of the exponent
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="base" description="Base of the exponent"/>
+        <Parameter name="expr2" type="exponent" description="Exponent"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns base to the power of exponent"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.PowerCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>pow</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

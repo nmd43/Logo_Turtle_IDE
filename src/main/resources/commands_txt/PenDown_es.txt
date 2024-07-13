@@ -1,0 +1,9 @@
+- Nombre Canónico: pendown
+- Aliases: pd
+- Parámetros: Ninguno
+- Ejemplo: pendown
+- Funcionalidad: Baja el lápiz, haciendo que la tortuga continúe dibujando.
+
+Notas Adicionales:
+- Este comando se utiliza comúnmente para comenzar a dibujar líneas después de usar "penup".
+- Los comandos de movimiento subsiguientes dejarán una traza hasta que se ejecute "penup".

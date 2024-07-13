@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>arctangent</CanonicalName>
+    <Description>Returns arctangent of degrees</Description>
+    <Example>arctangent 60</Example>
+    <HelpDocumentation>
+        Returns arctangent of degrees
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="degrees" type="double" description="Degrees to get the arctangent of"/>
+    </Parameters>
+    <ReturnValue type="double" description="Arctangent value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.ArctangentCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>atan</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

@@ -1,0 +1,20 @@
+<Command>
+  <CanonicalName>HIDETURTLE</CanonicalName>
+  <Description>Make the image of the turtle on the screen disappear</Description>
+  <Example>HIDETURTLE</Example>
+  <HelpDocumentation>
+    If the turtle is currently being displayed, use this command to make it invisible
+  </HelpDocumentation>
+  <Parameters>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.HideTurtleCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>HT</Alias>
+    <Alias>hideturtle</Alias>
+    <Alias>ht</Alias>
+    <Alias>Hideturtle</Alias>
+  </Aliases>
+</Command>

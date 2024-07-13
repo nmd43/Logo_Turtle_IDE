@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>randomrange</CanonicalName>
+    <Description>Returns random number within the given range min to max, inclusive</Description>
+    <Example>randomrange 10 50</Example>
+    <HelpDocumentation>
+        Returns random number within the given range min to max, inclusive
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="min" type="double" description="Minimum number above which random is generated"/>
+        <Parameter name="max" type="double" description="Maximum number below which random is generated"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the random value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.RandomRangeCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>randr</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

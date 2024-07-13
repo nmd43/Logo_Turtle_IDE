@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>or</CanonicalName>
+    <Description>Returns 1 if test1 or test2 are non-zero, otherwise 0</Description>
+    <Example>or 5 0</Example>
+    <HelpDocumentation>
+        Returns 1 if test1 or test2 are non-zero, otherwise 0
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="test1" type="double" description="First number to check"/>
+        <Parameter name="test2" type="double" description="Second number to check"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether either number is non-zero"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.OrCommand</ImplementingClassName>
+    <Aliases>
+        <Alias/>
+        <Alias/>
+    </Aliases>
+</Command>

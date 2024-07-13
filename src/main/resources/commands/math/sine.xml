@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>sine</CanonicalName>
+    <Description>Returns sine of degrees</Description>
+    <Example>sine 60</Example>
+    <HelpDocumentation>
+        Returns sine of degrees
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="degrees" type="double" description="Degrees to get the sine of"/>
+    </Parameters>
+    <ReturnValue type="double" description="Sine value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.SineCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>sin</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

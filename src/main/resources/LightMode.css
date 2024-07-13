@@ -1,0 +1,61 @@
+.custom-text-field {
+    -fx-font-size: 15px;
+    -fx-background-color: #f0f0f0; /* Light Gray */
+    -fx-text-fill: #000000; /* Black text on Light Gray background */
+}
+
+.button {
+    -fx-font-size: 18px;
+    -fx-min-width: 120px;
+    -fx-min-height: 40px;
+    -fx-padding: 0px;
+    -fx-background-color: #e0e0e0; /* Light Gray */
+    -fx-text-fill: #000000; /* Black text on Light Gray background */
+}
+
+.menu-button .label {
+    -fx-text-fill: #000000; /* Black text for menu button label */
+}
+.scrollPane {
+    -fx-pref-width: 200px; /* Set the preferred width */
+    -fx-pref-height: 200px; /* Set the preferred height */
+    -fx-background-color: BLACK;
+}
+
+/* Style the vertical scroll bar */
+.scrollPane:vertical .scroll-bar {
+    -fx-base: #00ff00; /* Set the color of the vertical scroll bar to green */
+}
+
+/* Style the horizontal scroll bar */
+.scrollPane:horizontal .scroll-bar {
+    -fx-base: #00ff00; /* Set the color of the horizontal scroll bar to green */
+}
+.label {
+    -fx-min-width: 120px;
+    -fx-min-height: 12px;
+    -fx-font-size: 10px; /* Set the font size of labels */
+    -fx-spacing: 5px; /* Set the spacing between labels */
+    -fx-background-color: #e0e0e0; /* Light Gray */
+    -fx-text-fill: #000000; /* Black text on Light Gray background */
+}
+
+.turtle_area {
+    -fx-border-width: 3px;
+    -fx-border-color: #e0e0e0; /* Light Gray */
+    -fx-background-color: #ffffff; /* White background */
+}
+
+.stage {
+    -fx-background-color: #ffffff; /* White background */
+}
+
+.button:hover{
+    -fx-background-color: RED;
+}
+
+.turtle-image {
+    -fx-image: url("/view/turtle.png");
+    -fx-background-size: contain;
+    -fx-background-repeat: no-repeat;
+}

@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>tangent</CanonicalName>
+    <Description>Returns tangent of degrees</Description>
+    <Example>tangent 60</Example>
+    <HelpDocumentation>
+        Returns tangent of degrees
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="degrees" type="double" description="Degrees to get the tangent of"/>
+    </Parameters>
+    <ReturnValue type="double" description="Tangent value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.TangentCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>tan</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

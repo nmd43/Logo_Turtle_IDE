@@ -1,0 +1,10 @@
+- Canonical Name: right
+- Aliases: rt
+- Parameters: angle (degrees)
+- Example: right 90
+- Functionality: Rotate the turtle clockwise by the specified angle.
+
+Additional Notes:
+- The "angle" parameter represents the number of degrees by which the turtle will rotate clockwise.
+- Negative values can be used to rotate the turtle counterclockwise.
+- This command is commonly used for turtle rotation in the right direction.

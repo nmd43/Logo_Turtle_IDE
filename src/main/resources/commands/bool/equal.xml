@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>equal?</CanonicalName>
+    <Description>Returns 1 if the value of expr1 and the value of expr2 are equal, otherwise 0</Description>
+    <Example>equal? 12 5</Example>
+    <HelpDocumentation>
+        Returns 1 if the value of expr1 and the value of expr2 are equal, otherwise 0
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="First number"/>
+        <Parameter name="expr2" type="double" description="Second number"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether they are equal"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.EqualCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>==</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

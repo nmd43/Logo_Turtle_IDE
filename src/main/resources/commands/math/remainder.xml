@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>remainder</CanonicalName>
+    <Description>Returns remainder on dividing the values of expr1 by expr2</Description>
+    <Example>remainder 23 4</Example>
+    <HelpDocumentation>
+        Returns remainder on dividing the values of expr1 by expr2
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to be divided"/>
+        <Parameter name="expr2" type="double" description="Number to divide by"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the remainder"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.RemainderCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>%</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

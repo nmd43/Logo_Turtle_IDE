@@ -1,0 +1,16 @@
+<Command>
+  <CanonicalName>LEFT</CanonicalName>
+  <Description>Turns the turtle counterclockwise by the specified degrees.</Description>
+  <Example>left 90</Example>
+  <HelpDocumentation>Turns the turtle counterclockwise by the given angle without moving it. The turtle's heading is updated.</HelpDocumentation>
+  <Parameter name="degrees" type="double">The angle in degrees to turn the turtle counterclockwise.</Parameter>
+  <ReturnValue type="double" description="Returns the degrees the turtle has turned ot the left."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.LeftCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>LT</Alias>
+    <Alias>left</Alias>
+    <Alias>lt</Alias>
+  </Aliases>
+</Command>

@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>minus</CanonicalName>
+    <Description>Returns negative of the values of expr</Description>
+    <Example>minus 8</Example>
+    <HelpDocumentation>
+        Returns negative of the values of expr
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to be made negative"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the negative value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.MinusCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>~</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

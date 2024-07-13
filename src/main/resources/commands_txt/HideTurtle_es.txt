@@ -1,0 +1,9 @@
+- Nombre Canónico: ocultartortuga
+- Aliases: ht
+- Parámetros: Ninguno
+- Ejemplo: ocultartortuga
+- Funcionalidad: Oculta la tortuga en la pantalla.
+
+Notas Adicionales:
+- Este comando se utiliza para hacer invisible la tortuga en la pantalla.
+- El ícono de la tortuga se oculta, permitiendo una vista clara del dibujo.

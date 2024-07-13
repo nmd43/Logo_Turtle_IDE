@@ -1,0 +1,17 @@
+<Command>
+  <CanonicalName>PENDOWN</CanonicalName>
+  <Description>Puts the pen down, causing the turtle to draw as it moves.</Description>
+  <Example>PENDOWN</Example>
+  <HelpDocumentation>Puts the turtle's pen down, so it draws a line as it moves across the screen.</HelpDocumentation>
+  <Parameters>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.PenDownCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>PD</Alias>
+    <Alias>pendown</Alias>
+    <Alias>pd</Alias>
+  </Aliases>
+</Command>

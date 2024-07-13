@@ -1,0 +1,9 @@
+- Canonical Name: hideturtle
+- Aliases: ht
+- Parameters: None
+- Example: hideturtle
+- Functionality: Hide the turtle on the screen.
+
+Additional Notes:
+- This command is used to make the turtle invisible on the screen.
+- The turtle icon becomes hidden, allowing for a clear view of the drawing.

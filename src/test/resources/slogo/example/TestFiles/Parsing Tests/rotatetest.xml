@@ -1,0 +1,12 @@
+<Command>
+  <CanonicalName>left</CanonicalName>
+  <Description>Rotate the turtle left by a specified number of degrees</Description>
+  <Example>left 90</Example>
+  <HelpDocumentation>Rotates the turtle clockwise by the specified degrees</HelpDocumentation>
+  <Parameter name="degrees" type="double">The number of degrees to rotate</Parameter>
+  <ReturnValueDescription>None</ReturnValueDescription>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.LeftCommand</ImplementingClassName>
+  <Alias>rt</Alias>
+</Command>

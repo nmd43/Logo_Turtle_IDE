@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>greater?</CanonicalName>
+    <Description>Returns 1 if the value of expr1 is strictly greater than the value of expr2, otherwise 0</Description>
+    <Example>less? 12 5</Example>
+    <HelpDocumentation>
+        Returns 1 if the value of expr1 is strictly greater than the value of expr2, otherwise 0
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to check if greater"/>
+        <Parameter name="expr2" type="double" description="Number to check against"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether first number is greater than second"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.GreaterCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>&gt;</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

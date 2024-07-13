@@ -1,0 +1,21 @@
+<Command>
+    <CanonicalName>make</CanonicalName>
+    <Description>Assigns the value of expr to variable, creating the variable if necessary returns expr</Description>
+    <Example>make decade 10</Example>
+    <HelpDocumentation>
+        Assigns the value of expr to variable, creating the variable if necessary returns expr
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="variable" type="string" description="Name of variable"/>
+        <Parameter name="expr" type="double" description="Number to be assigned to variable"/>
+    </Parameters>
+    <ReturnValue type="double" description="Number assigned to variable"/>
+    <Category>Misc</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.misc.MakeCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>set</Alias>
+        <ALias>make</ALias>
+        <Alias/>
+    </Aliases>
+</Command>

@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>showing?</CanonicalName>
+    <Description>Returns 1 if turtle is showing, 0 if it is hiding</Description>
+    <Example>showing?</Example>
+    <HelpDocumentation>
+        Returns 1 if turtle is showing, 0 if it is hiding
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter />
+    </Parameters>
+    <ReturnValue type="int" description="This command returns a value corresponding to whether the turtle is visible"/>
+    <Category>Query</Category>
+    <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.query.ShowingCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>showingp</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

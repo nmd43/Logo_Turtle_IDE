@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>cosine</CanonicalName>
+    <Description>Returns cosine of degrees</Description>
+    <Example>cosine 60</Example>
+    <HelpDocumentation>
+        Returns cosine of degrees
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="degrees" type="double" description="Degrees to get the cosine of"/>
+    </Parameters>
+    <ReturnValue type="double" description="Cosine value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.CosineCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>cos</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

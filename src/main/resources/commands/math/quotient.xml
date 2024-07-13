@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>quotient</CanonicalName>
+    <Description>Returns the quotient of the values of expr1 and expr2</Description>
+    <Example>quotient 20 4</Example>
+    <HelpDocumentation>
+        Returns the quotient of the values of expr1 and expr2
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to be divided"/>
+        <Parameter name="expr2" type="double" description="Number to divide by"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the quotient"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.QuotientCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>/</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

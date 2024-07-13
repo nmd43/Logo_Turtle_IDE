@@ -1,0 +1,20 @@
+<Command>
+  <CanonicalName>SETXY</CanonicalName>
+  <Description>Moves the turtle to an absolute screen position (x, y).</Description>
+  <Example>SETXY 100 -50</Example>
+  <HelpDocumentation>Moves the turtle to the specified position on the screen, where (0, 0) is the center. Returns the distance moved.</HelpDocumentation>
+  <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+  <ReturnValue type="double" description="Returns the distance moved"/>
+  <Category>Movement</Category>
+  <ImplementingClassName>slogo.model.commands.movement.SetXYCommand</ImplementingClassName>
+  <Parameter>
+    <name>x</name>
+    <type>double</type>
+    <description>The x-coordinate of the new position.</description>
+  </Parameter>
+  <Parameter>
+    <name>y</name>
+    <type>double</type>
+    <description>The y-coordinate of the new position.</description>
+  </Parameter>
+</Command>

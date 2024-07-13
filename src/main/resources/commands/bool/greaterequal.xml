@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>greaterequal?</CanonicalName>
+    <Description>Returns 1 if the value of expr1 is greater than or equal to the value of expr2, otherwise 0</Description>
+    <Example>greaterequal? 9 9</Example>
+    <HelpDocumentation>
+        Returns 1 if the value of expr1 is greater than or equal to the value of expr2, otherwise 0
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to check if greater/equal"/>
+        <Parameter name="expr2" type="double" description="Number to check against"/>
+    </Parameters>
+    <ReturnValue type="int" description="Whether first number is greater/equal than second"/>
+    <Category>Bool</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.bool.GreaterEqualCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>&gt;=</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

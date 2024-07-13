@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>minus</CanonicalName>
+    <Description>Returns square root of expr</Description>
+    <Example>squareroot 8</Example>
+    <HelpDocumentation>
+        Returns square root of expr
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="Number to find the square root of"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the square root"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.SqaureRootCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>sqrt</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

@@ -1,0 +1,22 @@
+<Command>
+<CanonicalName>TOWARDS</CanonicalName>
+<Description>Turns the turtle towards the specified point (x, y).</Description>
+<Example>TOWARDS 100 100</Example>
+<HelpDocumentation>
+  Turns the turtle to face towards the point (x, y) on the screen.
+</HelpDocumentation>
+<Parameters>
+  <Parameter name="x" type="double">The x-coordinate of the target point.</Parameter>
+  <Parameter name="y" type="double">The y-coordinate of the target point.</Parameter>
+</Parameters>
+<ReturnValue type="double" description="Returns the degrees the turtle has turned to face the given point."/>
+<Category>Movement</Category>
+<NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+<ImplementingClassName>slogo.model.commands.movement.TowardsCommand</ImplementingClassName>
+<Aliases>
+  <Alias>towards</Alias>
+  <Alias>td</Alias>
+  <Alias>TD</Alias>
+</Aliases>
+</Command>
+

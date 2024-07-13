@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>heading</CanonicalName>
+    <Description>Returns the turtle's heading in degrees</Description>
+    <Example>heading</Example>
+    <HelpDocumentation>
+        Returns the turtle's heading in degrees
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter />
+    </Parameters>
+    <ReturnValue type="double" description="This command returns a decimal value corresponding to the angle of the turtle"/>
+    <Category>Query</Category>
+    <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.query.HeadingCommand</ImplementingClassName>
+    <Aliases>
+        <Alias/>
+        <Alias/>
+    </Aliases>
+</Command>

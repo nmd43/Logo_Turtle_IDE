@@ -1,0 +1,18 @@
+<Command>
+  <CanonicalName>SETHEADING</CanonicalName>
+  <Description>Sets the turtle to an absolute heading.</Description>
+  <Example>SETHEADING 90</Example>
+  <HelpDocumentation>Sets the turtle's heading to an absolute degree. The command takes one parameter: the target heading in degrees.</HelpDocumentation>
+  <Parameters>
+    <Parameter name="degrees" type="double">The absolute heading to set the turtle to.</Parameter>
+  </Parameters>
+  <ReturnValue type="double" description="Returns the number of degrees turned to reach the new heading."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.SetHeadingCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>SETH</Alias>
+    <Alias>setheading</Alias>
+    <Alias>seth</Alias>
+  </Aliases>
+</Command>

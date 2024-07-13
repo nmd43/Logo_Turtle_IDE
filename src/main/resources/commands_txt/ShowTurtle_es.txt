@@ -1,0 +1,9 @@
+- Nombre Canónico: mostrartortuga
+- Aliases: st
+- Parámetros: Ninguno
+- Ejemplo: mostrartortuga
+- Funcionalidad: Hace visible la tortuga en la pantalla.
+
+Notas Adicionales:
+- Este comando se utiliza para mostrar la tortuga en la pantalla si está oculta.
+- El ícono de la tortuga se vuelve visible, permitiendo verla mientras se mueve.

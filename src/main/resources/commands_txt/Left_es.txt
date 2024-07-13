@@ -1,0 +1,10 @@
+- Nombre Canónico: izquierda
+- Aliases: lt
+- Parámetros: ángulo (grados)
+- Ejemplo: izquierda 90
+- Funcionalidad: Gira la tortuga en sentido antihorario por el ángulo especificado.
+
+Notas Adicionales:
+- El parámetro "ángulo" representa la cantidad de grados por los cuales la tortuga girará en sentido antihorario.
+- Se pueden utilizar valores negativos para girar la tortuga en sentido horario.
+- Este comando se utiliza comúnmente para la rotación de la tortuga hacia la izquierda.

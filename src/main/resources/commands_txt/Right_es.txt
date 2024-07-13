@@ -1,0 +1,10 @@
+- Nombre Canónico: derecha
+- Aliases: rt
+- Parámetros: ángulo (grados)
+- Ejemplo: derecha 90
+- Funcionalidad: Gira la tortuga en sentido horario por el ángulo especificado.
+
+Notas Adicionales:
+- El parámetro "ángulo" representa la cantidad de grados por los cuales la tortuga girará en sentido horario.
+- Se pueden utilizar valores negativos para girar la tortuga en sentido antihorario.
+- Este comando se utiliza comúnmente para la rotación de la tortuga hacia la derecha.

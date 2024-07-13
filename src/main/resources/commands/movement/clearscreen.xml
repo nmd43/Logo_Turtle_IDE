@@ -1,0 +1,22 @@
+<Command>
+  <CanonicalName>CLEARSCREEN</CanonicalName>
+  <Description>Moves the turtle back to the center of the screen and removes all pen traces</Description>
+  <Example>CLEARSCREEN</Example>
+  <HelpDocumentation>
+    If the turtle is not currently centered both horizontally and vertically, then this command will
+    return it to the origin which is at the center of the screen. Additionally, it will remove any
+    trails the turtle left behind while the pen was down, and it was moving.
+  </HelpDocumentation>
+  <Parameters>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.ClearscreenCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>CS</Alias>
+    <Alias>clearscreen</Alias>
+    <Alias>cs</Alias>
+    <Alias>Clearscreen</Alias>
+  </Aliases>
+</Command>

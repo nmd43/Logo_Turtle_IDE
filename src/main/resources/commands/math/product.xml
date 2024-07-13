@@ -1,0 +1,20 @@
+<Command>
+    <CanonicalName>product</CanonicalName>
+    <Description>Returns the product of the values of expr1 and expr2</Description>
+    <Example>product 5 12</Example>
+    <HelpDocumentation>
+        Returns the product of the values of expr1 and expr2
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="expr1" type="double" description="First number to be multiplied"/>
+        <Parameter name="expr2" type="double" description="Second number to be multiplied"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the product"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>2</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.ProductCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>*</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

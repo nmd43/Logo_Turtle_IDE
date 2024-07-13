@@ -1,0 +1,19 @@
+<Command>
+    <CanonicalName>random</CanonicalName>
+    <Description>Returns random non-negative number strictly less than max</Description>
+    <Example>random 100</Example>
+    <HelpDocumentation>
+        Returns random non-negative number strictly less than max
+    </HelpDocumentation>
+    <Parameters>
+        <Parameter name="max" type="double" description="Maximum limit under which number is generated"/>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the random value"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.RandomCommand</ImplementingClassName>
+    <Aliases>
+        <Alias>rand</Alias>
+        <Alias/>
+    </Aliases>
+</Command>

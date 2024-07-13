@@ -1,0 +1,10 @@
+- Canonical Name: back
+- Aliases: bk
+- Parameters: distance (pixels)
+- Example: back 10
+- Functionality: Move the turtle backward by the specified distance.
+
+Additional Notes:
+- The "distance" parameter represents the number of pixels the turtle will move backward.
+- Negative values can be used to move the turtle forward.
+- This command is commonly used for turtle movement in the backward direction.

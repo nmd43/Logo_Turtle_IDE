@@ -1,0 +1,18 @@
+<Command>
+    <CanonicalName>pi</CanonicalName>
+    <Description>Returns value of the number Pi (Math.PI)</Description>
+    <Example>pi</Example>
+    <HelpDocumentation>
+        Returns value of the number Pi (Math.PI)
+    </HelpDocumentation>
+    <Parameters>
+    </Parameters>
+    <ReturnValue type="double" description="Returns the value of pi"/>
+    <Category>Math</Category>
+    <NumberOfExpectedParameters>0</NumberOfExpectedParameters>
+    <ImplementingClassName>slogo.model.commands.math.PiCommand</ImplementingClassName>
+    <Aliases>
+        <Alias/>
+        <Alias/>
+    </Aliases>
+</Command>

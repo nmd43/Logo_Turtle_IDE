@@ -1,0 +1,21 @@
+<Command>
+  <CanonicalName>FORWARD</CanonicalName>
+  <Description>Move the turtle forward by a specified distance</Description>
+  <Example>forward 50</Example>
+  <HelpDocumentation>
+    Moves the turtle forward in its current direction by the number of units specified in the parameter. The turtle's pen state determines whether a line is drawn.
+  </HelpDocumentation>
+  <Parameters>
+    <Parameter name="distance" type="double" description="The distance to move forward"/>
+  </Parameters>
+  <ReturnValue type="void" description="This command does not return a value."/>
+  <Category>Movement</Category>
+  <NumberOfExpectedParameters>1</NumberOfExpectedParameters>
+  <ImplementingClassName>slogo.model.commands.movement.ForwardCommand</ImplementingClassName>
+  <Aliases>
+    <Alias>FD</Alias>
+    <Alias>forward</Alias>
+    <Alias>fd</Alias>
+    <Alias>fwd</Alias>
+  </Aliases>
+</Command>
